@@ -45,4 +45,4 @@ This is a local two-player game. Draw detection is not implemented yet.
 =======
 # Tik-Tac-Toe
  Tic-Tac-Toe game
- thank you
+ 
