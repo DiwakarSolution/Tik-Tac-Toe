@@ -35,7 +35,7 @@ git init
 git add .
 git commit -m "Initial commit: Tic-Tac-Toe game"
 git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+git remote add origin https://github.com/DiwakarSolution/Tik-Tac-Toe.git
 git push -u origin main
 ```
 
