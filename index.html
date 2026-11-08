@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090d50">
+  <title>Tic-Tac-Toe | DiwakarSolution</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <header class="hero">
+      <div class="float-mark x-mark">×</div>
+      <div>
+        <p class="eyebrow">PLAY • ENJOY • WIN</p>
+        <h1>🏆 Tic-<span>Tac-Toe</span></h1>
+        <p class="tagline">Challenge a friend. Make your move!</p>
+      </div>
+      <div class="float-mark o-mark">○</div>
+    </header>
+
+    <section class="dashboard">
+      <aside class="left-column">
+        <section class="panel players">
+          <h2>👥 Player List</h2>
+          <label class="player-field"><span class="symbol x">X</span><span>Player 1<input id="playerX" maxlength="18" value="Player 1" aria-label="Player 1 name"></span></label>
+          <label class="player-field"><span class="symbol o">O</span><span>Player 2<input id="playerO" maxlength="18" value="Player 2" aria-label="Player 2 name"></span></label>
+        </section>
+
+        <section class="panel scores">
+          <h2>🏆 Scoreboard</h2>
+          <div class="score-row"><span class="symbol x">X</span><strong id="scoreNameX">Player 1</strong><b id="winsX">0</b></div>
+          <div class="score-row"><span class="symbol o">O</span><strong id="scoreNameO">Player 2</strong><b id="winsO">0</b></div>
+          <div class="score-row"><span class="symbol draw">★</span><strong>Draws</strong><b id="draws">0</b></div>
+        </section>
+
+        <section class="panel info-panel">
+          <h2>🔄 Last Refresh</h2>
+          <p id="lastRefresh">—</p>
+        </section>
+        <section class="panel info-panel timer-panel">
+          <h2>⏱ Match Timer</h2>
+          <p id="timer">00:00</p>
+        </section>
+      </aside>
+
+      <section class="game-column">
+        <div class="turn-banner" id="status" aria-live="polite">🎮 Player 1's turn (X)</div>
+        <section class="board" id="board" aria-label="Tic tac toe board">
+          <button class="cell" data-index="0" aria-label="Cell 1"></button>
+          <button class="cell" data-index="1" aria-label="Cell 2"></button>
+          <button class="cell" data-index="2" aria-label="Cell 3"></button>
+          <button class="cell" data-index="3" aria-label="Cell 4"></button>
+          <button class="cell" data-index="4" aria-label="Cell 5"></button>
+          <button class="cell" data-index="5" aria-label="Cell 6"></button>
+          <button class="cell" data-index="6" aria-label="Cell 7"></button>
+          <button class="cell" data-index="7" aria-label="Cell 8"></button>
+          <button class="cell" data-index="8" aria-label="Cell 9"></button>
+        </section>
+        <div class="actions">
+          <button class="btn btn-green" id="newGame">↻ New Game</button>
+          <button class="btn btn-red" id="resetScores">Reset Scores</button>
+        </div>
+      </section>
+
+      <aside class="right-column">
+        <section class="panel history-panel">
+          <div class="panel-heading"><h2>🕒 Match History</h2><button class="small-btn" id="clearHistory">Delete All</button></div>
+          <ul id="history" class="history-list"><li class="empty">No matches yet. Play your first game!</li></ul>
+        </section>
+        <section class="panel tips">
+          <h2>⭐ Quick Tips</h2>
+          <p>✅ Enter player names</p>
+          <p>✅ Click any empty cell to play</p>
+          <p>✅ Get three in a row to win</p>
+          <p>🏆 Have fun and play fair!</p>
+        </section>
+      </aside>
+    </section>
+    <footer>❤️ Made with care by <strong>DiwakarSolution</strong> <span>•</span> Tic-Tac-Toe v1.0</footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
