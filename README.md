@@ -1,5 +1,7 @@
 # Colorful Tic-Tac-Toe
 
+live:https://tik-tac-toe-gaming.netlify.app/
+
 A responsive two-player Tic-Tac-Toe game built with HTML, CSS and vanilla JavaScript.
 
 ## Features
