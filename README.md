@@ -1,6 +1,6 @@
-# Colorful Tic-Tac-Toe
+Tic-Tac-Toe
 
-live:https://tik-tac-toe-gaming.netlify.app/
+live:  https://tik-tac-toe-gaming.netlify.app/
 
 A responsive two-player Tic-Tac-Toe game built with HTML, CSS and vanilla JavaScript.
 
@@ -16,7 +16,7 @@ A responsive two-player Tic-Tac-Toe game built with HTML, CSS and vanilla JavaSc
 
 ## Run locally
 1. Download and extract the ZIP.
-2. Open the `Tik-Tac-Toe-Colorful` folder.
+2. Open the `Tik-Tac-Toe` folder.
 3. Double-click `index.html`, or use VS Code Live Server.
 
 ## Publish with GitHub Pages
